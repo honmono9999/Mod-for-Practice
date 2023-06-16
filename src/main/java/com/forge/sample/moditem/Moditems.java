@@ -6,8 +6,13 @@ import net.minecraft.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import java.awt.*;
+
 public class Moditems {
     public static final DeferredRegister<Item> Item=
             DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MODID);
 
+    public static void re(Event){
+
+    }
 }
